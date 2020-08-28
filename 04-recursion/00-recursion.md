@@ -19,6 +19,12 @@ No base case
 Forgetting to return or returning the wrong thing!
 Stack overflow! 
 
+## Recap
+- A recursive function is a function that invokes itself
+- Your recursive functions should always have a base case and be invoked with different input each time
+- When using recursion, it's often essential to return values from one function to another to extract data from each function call
+- Helper method recursion is an alternative that allows us to use an external scope in our recursive functions
+- Pure recursion eliminates the need for helper method recursion, but can be trickier to understand at first
 
 ## Example
 ```cs
@@ -143,3 +149,4 @@ collectOddValues([1,2,3,4,5])
 ## What about big O?
 Measuring time complexity is relatively simple. You can measure the time complexity of a recursive function as then number of recursive calls you need to make relative to the input
 
+Measuring space complexity is a bit more challenging. You can measure the space complexity of a recursive function as the maximum number of functions on the call stack at a given time, since the call stack requires memory.
