@@ -73,3 +73,6 @@ function naiveSearch(long, short){
 
 naiveSearch("lorie loled in the house of lolz but why lol", "lol");
 ```
+
+# BIG O 
+Naive String Search - O(nm)

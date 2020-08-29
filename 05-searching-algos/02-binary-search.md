@@ -66,7 +66,7 @@ function binarySearch(arr, elem) {
 console.log(binarySearch([2,5,6,9,13,15,28,30],28));
 ```
 
-## BIG O?
+## Binary search BIG O?
 - Best Case O(1) - could be first guess, lucky middle shot.
 - Worst and Average Case O(log n) 
 

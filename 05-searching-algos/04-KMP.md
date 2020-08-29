@@ -63,3 +63,6 @@ function kmpSearch(long, short) {
 }
 kmpSearch("lorie loled in the house of lolz but why lol", "lol");
 ```
+
+## BIG O
+KMP - O(n + m) time, O(m) space
