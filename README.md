@@ -8,4 +8,4 @@ What you'll learn:
 - Master dozens of popular algorithms, including 6 sorting algorithms!
 - Implement 10+ data structures from scratch
 - Improve your problem solving skills and become a stronger developer
-
+![](img/complexity.png)
