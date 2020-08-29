@@ -71,5 +71,5 @@ function naiveSearch(long, short){
     return count;
 }
 
-naiveSearch("lorie loled lol", "lol");
+naiveSearch("lorie loled in the house of lolz but why lol", "lol");
 ```
