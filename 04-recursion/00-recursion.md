@@ -147,6 +147,5 @@ collectOddValues([1,2,3,4,5])
 - To make copies of objects use Object.assign, or the spread operator
 
 ## What about big O?
-Measuring time complexity is relatively simple. You can measure the time complexity of a recursive function as then number of recursive calls you need to make relative to the input
-
-Measuring space complexity is a bit more challenging. You can measure the space complexity of a recursive function as the maximum number of functions on the call stack at a given time, since the call stack requires memory.
+Measuring time complexity is relatively simple. You can measure the time complexity of a recursive function as then number of recursive calls you need to 
+make relative to the input Measuring space complexity is a bit more challenging. You can measure the space complexity of a recursive function as the maximum number of functions on the call stack at a given time, since the call stack requires memory.
