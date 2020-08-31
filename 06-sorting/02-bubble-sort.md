@@ -45,5 +45,5 @@ bubbleSort([8,1,2,3,4,5,6,7]);
 ```
 
 ## Big O of bubble sort
-best case (nearly sorted) = O(n²)
+best case (nearly sorted) = O(n)
 worst/average O(n²)
