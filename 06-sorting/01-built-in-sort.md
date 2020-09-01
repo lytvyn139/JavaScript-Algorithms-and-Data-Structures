@@ -40,3 +40,15 @@ function compareByLen(str1, str2) {
 // [ "Colt", "Steele", "Algorithms", "Data Structures" ]
 ```
 
+```cs
+function sortByLength(array) {
+    return array.sort(function (a, b) {
+        return a.length - b.length;
+    });
+}
+sortByLength(["Beg", "Life", "I", "To"]);
+
+function sortByLength(array) {
+    return array.sort((a, b) => a.length - b.length);
+};
+```
